@@ -1,0 +1,5 @@
+funcional, evolucionar con:
+
+-Implementar propio jar de coollections para evitar el uso de reflection tal como está, ya q implica hacer pojos de una determinada forma.
+-Hacer el procesado de query utilizando GPU
+-Erradicar totalmente el uso de Ids en el layout y sustituirlo por un valor bindeado al textview desde el propio command
