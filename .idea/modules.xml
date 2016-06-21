@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestLinq.iml" filepath="$PROJECT_DIR$/TestLinq.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appoxee_sdk_2.8.0/appoxee_sdk_2.8.0.iml" filepath="$PROJECT_DIR$/appoxee_sdk_2.8.0/appoxee_sdk_2.8.0.iml" />
     </modules>
   </component>
 </project>

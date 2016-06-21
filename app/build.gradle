@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.example.alberto.testlinq"
         minSdkVersion 18
-        targetSdkVersion 23
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
@@ -22,7 +22,13 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+   // compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
+
+    //appoxee4beni
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile project (':appoxee_sdk_2.8.0')
+    compile 'com.j256.ormlite:ormlite-core:4.48'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
 }
